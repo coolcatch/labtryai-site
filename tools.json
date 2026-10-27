@@ -1,0 +1,149 @@
+{
+ "updated": "2026-10-26",
+ "note": "No ratings. Verdicts are editorial one-liners. Pricing changes often; check the official site.",
+ "categories": [
+  {
+   "job": "Listing copy (titles, descriptions, tags)",
+   "tools": [
+    {
+     "name": "ChatGPT",
+     "url": "https://chatgpt.com",
+     "pricing": "Free tier + paid plans",
+     "verdict": "Best all-round writer for listing copy when given a structured prompt."
+    },
+    {
+     "name": "Claude",
+     "url": "https://claude.ai",
+     "pricing": "Free tier + paid plans",
+     "verdict": "Strong at long, natural-sounding descriptions and following strict character limits."
+    },
+    {
+     "name": "Grok",
+     "url": "https://grok.com",
+     "pricing": "Free tier + paid plans",
+     "verdict": "Good for fast idea variations and trend-aware brainstorming."
+    },
+    {
+     "name": "Gemini",
+     "url": "https://gemini.google.com",
+     "pricing": "Free tier + paid plans",
+     "verdict": "Handy if you work in Google Docs/Sheets and want copy there."
+    }
+   ]
+  },
+  {
+   "job": "Etsy keyword & product research",
+   "tools": [
+    {
+     "name": "eRank",
+     "url": "https://erank.com",
+     "pricing": "Free plan + paid plans",
+     "verdict": "The go-to Etsy SEO dashboard; the free plan is enough to start."
+    },
+    {
+     "name": "EverBee",
+     "url": "https://everbee.io",
+     "pricing": "Free plan + paid plans",
+     "verdict": "Browser extension that estimates sales of competing Etsy listings."
+    },
+    {
+     "name": "Marmalead",
+     "url": "https://marmalead.com",
+     "pricing": "Paid (trial available)",
+     "verdict": "Etsy keyword engagement and competition data in one place."
+    }
+   ]
+  },
+  {
+   "job": "KDP keyword, category & ad research",
+   "tools": [
+    {
+     "name": "Publisher Rocket",
+     "url": "https://publisherrocket.com",
+     "pricing": "Paid, one-time licence",
+     "verdict": "Deepest KDP keyword/category research plus an Amazon Ads keyword tool."
+    },
+    {
+     "name": "Book Bolt",
+     "url": "https://bookbolt.io",
+     "pricing": "Paid subscription (trial available)",
+     "verdict": "All-in-one for low-content: research, cover/interior studio, lister."
+    }
+   ]
+  },
+  {
+   "job": "Mockups & listing images",
+   "tools": [
+    {
+     "name": "Placeit",
+     "url": "https://placeit.net",
+     "pricing": "Paid subscription (some free items)",
+     "verdict": "Huge mockup library for printables, planners and book covers."
+    },
+    {
+     "name": "Canva",
+     "url": "https://www.canva.com",
+     "pricing": "Free + Pro",
+     "verdict": "Easiest way to make listing images, pins and simple mockups."
+    }
+   ]
+  },
+  {
+   "job": "Cover design",
+   "tools": [
+    {
+     "name": "Canva",
+     "url": "https://www.canva.com",
+     "pricing": "Free + Pro",
+     "verdict": "Fast covers if you export at KDP's exact trim + bleed size."
+    },
+    {
+     "name": "Kittl",
+     "url": "https://www.kittl.com",
+     "pricing": "Free plan + paid plans",
+     "verdict": "Best typography-heavy cover and title designs; check licence for commercial use."
+    },
+    {
+     "name": "Book Bolt Studio",
+     "url": "https://bookbolt.io/studio/",
+     "pricing": "Included in Book Bolt plans",
+     "verdict": "Cover templates already sized to KDP specs."
+    }
+   ]
+  },
+  {
+   "job": "Colouring page & illustration art",
+   "tools": [
+    {
+     "name": "Midjourney",
+     "url": "https://www.midjourney.com",
+     "pricing": "Paid plans",
+     "verdict": "Highest-quality line art when prompted for clean outlines; vectorise before print."
+    },
+    {
+     "name": "Ideogram",
+     "url": "https://ideogram.ai",
+     "pricing": "Free tier + paid plans",
+     "verdict": "Best at text inside images (cover titles, quote pages)."
+    },
+    {
+     "name": "Leonardo.Ai",
+     "url": "https://leonardo.ai",
+     "pricing": "Free daily credits + paid",
+     "verdict": "Generous free credits for testing colouring-page styles."
+    }
+   ]
+  },
+  {
+   "job": "Puzzle generation (Sudoku, word search, mazes)",
+   "tools": [
+    {
+     "name": "Book Bolt",
+     "url": "https://bookbolt.io/studio/",
+     "pricing": "Pro plan required for puzzles",
+     "verdict": "Generates full puzzle interiors with solutions, print-ready."
+    }
+   ]
+  }
+ ]
+}

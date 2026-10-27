@@ -1,0 +1,7 @@
+# Lab Try AI
+
+> Free browser-based AI prompt builder for Etsy digital product sellers and Amazon KDP self-publishers. Users pick a platform and task, fill a short form, and get a structured prompt (tuned to Etsy's 140-char titles and 13 tags of max 20 chars, and KDP's 200-char title+subtitle, 7 keyword slots of 50 chars, 4,000-char descriptions) to paste into ChatGPT, Claude, Grok or Gemini. No AI runs on the site; no account needed.
+
+- [Prompt builder](https://labtryai.com/#builder): Free templates — Etsy listing title, 13 Etsy tags, Etsy description, KDP title+subtitle, 7 KDP backend keywords, KDP book description.
+- Pro (one-time $19 USD): product/niche research, planner & puzzle/colouring interior content, Pinterest pins, social posts, shop About, A+ content, Amazon Ads keywords, and bundles (full Etsy listing, KDP launch kit).
+- [AI tools directory](https://labtryai.com/tools.html): real AI tools for Etsy & KDP sellers grouped by job, with official links and pricing notes.

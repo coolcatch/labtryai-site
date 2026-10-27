@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lab Try AI — AI Prompt Builder for Etsy & Amazon KDP Sellers</title>
+<meta name="description" content="Build expert AI prompts for Etsy listing titles, 13 tags, descriptions and Amazon KDP titles, keywords and book descriptions. Tuned to platform limits. Works with ChatGPT, Claude, Grok and Gemini.">
+<meta property="og:title" content="Lab Try AI — AI Prompt Builder for Etsy & KDP Sellers"><meta property="og:description" content="Fill a short form, get a polished prompt tuned to Etsy and KDP rules. Paste into any AI chatbot."><meta property="og:type" content="website"><meta property="og:url" content="https://labtryai.com/"><meta property="og:image" content="https://labtryai.com/og.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://labtryai.com/"><link rel="icon" href="favicon.svg"><link rel="stylesheet" href="styles.css">
+<script src="config.js"></script><script src="templates.js"></script></head><body>
+<header><div class="wrap"><nav><a class="logo" href="index.html" data-brand>Lab Try AI</a><div class="links"><a href="#builder">Builder</a><a href="tools.html">AI Tools</a><a class="hide-m" href="#pricing">Pricing</a><a class="hide-m" href="#faq">FAQ</a></div></nav></div></header>
+<main>
+<section class="hero"><div class="wrap"><h1>Write better Etsy & KDP listings with AI — in minutes</h1>
+<p>Pick your platform, fill a 60-second form, and get an expert prompt tuned to Etsy and Amazon KDP rules. Paste it into ChatGPT, Claude, Grok or Gemini.</p>
+<a class="btn btn-p" href="#builder">Build a free prompt</a> <a class="btn btn-s" href="#example">See an example</a></div></section>
+<section><div class="wrap grid">
+<div class="card"><b>For Etsy digital sellers</b><p class="muted">Printables, planners, SVGs, templates. Titles ≤140 chars, exactly 13 tags ≤20 chars, descriptions that convert.</p></div>
+<div class="card"><b>For Amazon KDP publishers</b><p class="muted">Puzzle, colouring and low-content books. Title+subtitle ≤200 chars, 7 keyword slots, HTML descriptions ≤4,000 chars.</p></div>
+<div class="card"><b>No AI subscription needed</b><p class="muted">We don't run the AI — you use the chatbot you already have, free or paid. Your data stays in your browser.</p></div>
+</div></section>
+<section id="builder"><div class="wrap"><h2>Prompt builder</h2><div class="builder">
+<div class="steps" id="plat"><button class="pill on" data-p="etsy">Etsy</button><button class="pill" data-p="kdp">Amazon KDP</button></div>
+<div class="tpls" id="tpls"></div>
+<div class="cols"><div><h3 id="tname" style="margin:0"></h3><p class="muted" id="tdesc"></p><form id="form"></form>
+<div class="actions"><button class="btn btn-p" id="gen" type="button">Generate prompt</button><button class="btn btn-s" id="ex" type="button">Fill example</button></div></div>
+<div><div id="outwrap"><pre id="out">Your prompt will appear here.</pre>
+<div class="actions"><button class="btn btn-d" id="copy">Copy prompt</button><a class="btn btn-s" id="o-gpt" target="_blank" rel="noopener">Open in ChatGPT</a><a class="btn btn-s" id="o-claude" target="_blank" rel="noopener">Claude</a><a class="btn btn-s" id="o-grok" target="_blank" rel="noopener">Grok</a><a class="btn btn-s" href="https://gemini.google.com/app" target="_blank" rel="noopener" id="o-gem">Gemini (paste)</a></div>
+<p class="muted" id="count"></p></div></div></div></div></div></section>
+<section id="example"><div class="wrap"><h2>Example output (a real generated prompt, shortened)</h2><pre style="white-space:pre-wrap" class="card">You are a senior Etsy SEO copywriter who has optimised thousands of digital-product listings.
+
+## Context
+- Product type: printable weekly planner PDF
+- Niche / theme: ADHD-friendly productivity
+- Target buyer: adults with ADHD, busy professionals
+...
+## Etsy rules you must follow
+- Tags: exactly 13 tags, each max 20 characters (including spaces)...
+## Task
+Generate exactly 13 Etsy tags. Mix: 4 broad, 6 specific long-tail, 3 buyer-intent tags...
+## Output format
+A table: # | tag | character count | type. Then one comma-separated line I can paste straight into Etsy.</pre></div></section>
+<section id="pricing" class="pricing"><div class="wrap"><h2>Pricing</h2><div class="grid">
+<div class="card"><h3>Free</h3><div class="price">$0</div><ul><li>6 core templates (3 Etsy, 3 KDP)</li><li>Copy & open in any AI chatbot</li><li>No account needed</li></ul><a class="btn btn-s" href="#builder">Start free</a></div>
+<div class="card"><h3>Pro 🔓</h3><div class="price" data-price>$19 USD</div><p class="muted" data-pricenote>one-time</p><ul><li>All 17 templates</li><li>Bundles: Full Etsy listing in one go, KDP launch kit</li><li>Niche research, interior content, A+ content, ads keywords, Pinterest & social</li><li>All future templates</li></ul>
+<a class="btn btn-p" data-pay target="_blank" rel="noopener">Unlock Pro</a><p class="muted">Already bought? <a href="#" id="havecode">Enter your unlock code</a></p></div></div></div></section>
+<section><div class="wrap card"><h2>Get new templates & seller tips</h2><p class="muted">Occasional emails, unsubscribe anytime.</p><form id="email" style="display:flex;gap:8px;flex-wrap:wrap"><input type="email" required placeholder="you@example.com" style="flex:1;min-width:200px"><button class="btn btn-p">Subscribe</button></form><p class="muted" id="emailmsg"></p></div></section>
+<section id="faq"><div class="wrap"><h2>FAQ</h2>
+<details><summary>Do I need to pay for ChatGPT or another AI?</summary><p>No. The prompts work with free tiers of ChatGPT, Claude, Grok and Gemini. Paid tiers usually give longer, better answers.</p></details>
+<details><summary>Does this tool run the AI for me?</summary><p>No — it builds the prompt. You paste it into your AI of choice. That keeps it fast, private and cheap.</p></details>
+<details><summary>Are the platform limits accurate?</summary><p>Prompts follow Etsy's 140-character titles and 13 tags of up to 20 characters, and KDP's 200-character title+subtitle, 7 keyword slots (50 characters each) and 4,000-character description limit. Always double-check AI output before publishing — AI can miscount.</p></details>
+<details><summary>Can I use AI-written content on Etsy and KDP?</summary><p>Both allow it with conditions: KDP asks you to disclose AI-generated content when publishing, and Etsy requires you to be transparent about how items are made. Check each platform's current policy.</p></details>
+<details><summary>How does Pro unlock work?</summary><p>After paying, your receipt includes a licence key. Click “Enter your unlock code”, paste it, and Pro templates unlock in this browser. Refunds within 14 days, no questions asked — see the <a href="refund.html">refund policy</a>.</p></details>
+</div></section></main>
+<footer><div class="wrap"><span data-brand>Lab Try AI</span> · Not affiliated with Etsy or Amazon. Etsy and Amazon KDP are trademarks of their owners. · <a href="tools.html">AI tools directory</a> · <a href="refund.html">Refunds</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></div></footer>
+<div class="toast" id="toast"></div><script src="app.js"></script></body></html>

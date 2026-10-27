@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best AI Tools for Etsy & KDP Sellers, by Job (2026) — Lab Try AI</title>
+<meta name="description" content="A curated, no-hype directory of real AI tools for Etsy and Amazon KDP sellers, grouped by job: listing copy, keyword research, mockups, covers, colouring page art and puzzle generation.">
+<meta property="og:title" content="AI Tools for Etsy & KDP Sellers, Ranked by Job"><meta property="og:description" content="Real tools, official links, honest one-line verdicts. No fake ratings."><meta property="og:type" content="article"><meta property="og:url" content="https://labtryai.com/tools.html">
+<link rel="canonical" href="https://labtryai.com/tools.html"><link rel="icon" href="favicon.svg"><link rel="stylesheet" href="styles.css"><script src="config.js"></script></head><body>
+<header><div class="wrap"><nav><a class="logo" href="index.html" data-brand>Lab Try AI</a><div class="links"><a href="index.html#builder">Builder</a><a href="tools.html">AI Tools</a><a class="hide-m" href="index.html#pricing">Pricing</a></div></nav></div></header>
+<main class="wrap"><section><h1>AI tools for Etsy & KDP sellers, by job</h1><p class="muted">Curated list, no ratings or affiliate rankings — just what each tool is best for. Pricing changes often; always check the official site. <span id="upd"></span></p>
+<div class="card" style="background:#fff7f2"><b>Tip:</b> the chatbots below only write well with a good prompt. <a href="index.html#builder">Build a free Etsy or KDP prompt →</a></div>
+<div id="dir"></div></section></main>
+<footer><div class="wrap"><span data-brand>Lab Try AI</span> · Not affiliated with any listed tool. · <a href="index.html">Prompt builder</a> · <a href="refund.html">Refunds</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></div></footer>
+<script>
+document.querySelectorAll("[data-brand]").forEach(e=>e.textContent=APP_CONFIG.BRAND_NAME);
+fetch("tools.json").then(r=>r.json()).then(d=>{document.getElementById("upd").textContent="Last updated "+d.updated+".";
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+document.getElementById("dir").innerHTML=d.categories.map(c=>`<h2 style="margin-top:32px">${esc(c.job)}</h2><div class="card"><table><tr><th>Tool</th><th>Verdict</th><th>Pricing</th></tr>${c.tools.map(t=>`<tr><td><a href="${esc(t.url)}" target="_blank" rel="noopener nofollow">${esc(t.name)}</a></td><td>${esc(t.verdict)}</td><td class="muted">${esc(t.pricing)}</td></tr>`).join("")}</table></div>`).join("")});
+</script></body></html>
